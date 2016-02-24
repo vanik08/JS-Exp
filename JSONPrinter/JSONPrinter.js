@@ -18,6 +18,7 @@ var checkpoint = {
 
 traverse(checkpoint, 0);
 
+
 function traverse(obj, count) {
   count++;
   for (var key in obj) {
